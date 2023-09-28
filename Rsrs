@@ -1,0 +1,23 @@
+import javax.swing.JOptionPane;
+
+public class IfUWantSay {
+	
+ public static void main(String[] args) {
+
+	 while (true) {
+		 JOptionPane.showMessageDialog(null, "Você quer namorar comigo? ");
+		 int escolha = JOptionPane.showConfirmDialog(null, "Tem certeza? ");
+		 if (escolha == 0){
+			 JOptionPane.showMessageDialog(null, "Muito boa escolha!!! :D ");
+			 break;
+		 }
+		 else if (escolha == 1){
+			 JOptionPane.showMessageDialog(null, "Oh ou... Try again my friend!!! :D ");
+		 }
+		 else {
+			 JOptionPane.showMessageDialog(null, "Here u again? Lmao!!! :D ");
+		 }
+		 
+	 }
+ }
+}
